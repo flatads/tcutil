@@ -1,0 +1,16 @@
+PODS:
+  - TCUtil (1.0.0)
+
+DEPENDENCIES:
+  - TCUtil (from `../`)
+
+EXTERNAL SOURCES:
+  TCUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCUtil: 9fae9ecd501332371cd9440e48d3d2ca00f2d6c9
+
+PODFILE CHECKSUM: 6c00c0bc4d5c10308719ed9396f3d78a5a51ae44
+
+COCOAPODS: 1.10.1

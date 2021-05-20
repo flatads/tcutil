@@ -7,11 +7,13 @@
 //
 
 #import "TCAppDelegate.h"
+#import <TCUtil/TCUtil.h>
 
 @implementation TCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [launchOptions JSONRepresentation];
     // Override point for customization after application launch.
     return YES;
 }

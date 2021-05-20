@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TCUtil_Example' do
+  pod 'TCUtil', :path => '../'
+
+  target 'TCUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

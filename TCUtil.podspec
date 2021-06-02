@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCUtil'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'iOS OC基础库Util'
   
   # This description is used to generate tags and improve search results.
@@ -26,17 +26,20 @@ Pod::Spec.new do |s|
   s.author       = { "flatincbr" => "flatincbr.dev@gmail.com" }
   
   s.platform     = :ios, "9.0"
+  
   s.source       = { :git => "https://github.com/flatads/tcutil.git", :tag => s.version }
  
   s.libraries = "c++"
   s.requires_arc = true
   s.static_framework = true
   
-  s.frameworks = 'AdSupport', 'CoreTelephony'
+  s.frameworks = ["AdSupport", "Foundation", "Security", "SystemConfiguration", "CoreTelephony"]
   
   s.vendored_frameworks = "TCUtil/**/*.{framework}"
   
   s.source_files = 'TCUtil/Classes/**/*'
+    
+  s.vendored_frameworks = "TCUtil/**/*.{framework}"
   
   # s.resource_bundles = {
   #   'TCUtil' => ['TCUtil/Assets/*.png']

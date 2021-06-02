@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A46E1F399DA52194CA79C0A3 /* Pods_TCUtil_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C77A459AA60889D1AED07A1 /* Pods_TCUtil_Example.framework */; };
+		A73AFA412667319700A8E167 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73AFA402667319700A8E167 /* MobileCoreServices.framework */; };
 		CF1ED2C630B38654E7D6EFD7 /* Pods_TCUtil_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9D4C65194424FD6B04FA71 /* Pods_TCUtil_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		99756E5B33F4F85E25815B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B52C8DED43DEA9BB352583F /* Pods-TCUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCUtil_Example.release.xcconfig"; path = "Target Support Files/Pods-TCUtil_Example/Pods-TCUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9ED6355B27CA31CC0AD89EEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A73AFA402667319700A8E167 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DE074533F0427B17DAF786E8 /* TCUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCUtil.podspec; path = ../TCUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F17EFDFA9A3DCCDE58F9FBE9 /* Pods-TCUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCUtil_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TCUtil_Tests/Pods-TCUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				A73AFA412667319700A8E167 /* MobileCoreServices.framework in Frameworks */,
 				A46E1F399DA52194CA79C0A3 /* Pods_TCUtil_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A73AFA402667319700A8E167 /* MobileCoreServices.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

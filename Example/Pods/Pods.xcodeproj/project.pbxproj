@@ -6,166 +6,71 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		55EF39035865BC9F28E6627BC3FA8903 /* TCUtil */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B547E7FBB97BBC347EADFB8A7A12918F /* Build configuration list for PBXAggregateTarget "TCUtil" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TCUtil;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		01299D4960E45AEDFE184237070FD3DE /* TCVersionComparation.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CF41777130ABDB87FFA41413413D6D /* TCVersionComparation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		039C3B36BB76B3B476330AE3F3927C2B /* TCContainerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2B690432F6DACAE5EC7F1704E5BAF5 /* TCContainerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04F60E7FE33E6EB02AA897E6456876B9 /* TCCoordinationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 022BDE2AE83ECFFDDD19A72E935E000A /* TCCoordinationFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		092B5D7363258EF05204A0D875F829B5 /* TCWeakDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A771B4A533E5D5AE309647940A8F3D /* TCWeakDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16F68062EB6A08584A890E2D793E6056 /* NSObject+TCSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B0059272640B348F08AC88230232D2 /* NSObject+TCSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B0EF1497A4AD99E89ABE7DDBB6ADC3 /* NSFileManager+TCGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB7621BE39A7E5D36DA0BBCA6A4BAFE /* NSFileManager+TCGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		251DA8779AD690D38BEACF12DDCCA752 /* TCDictionaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 132D1839A1CDF0239C5BFB1A4D273F8A /* TCDictionaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26A2FFFD8B5C96069CEFF9A2272F4FAB /* TCRequestHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C5EE68A2E74FAACECAA31CE06035F7 /* TCRequestHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27611C760075D548E143FA17B77AD304 /* TCSystemUtil+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D596BD9EAD00D9E1EF3C189FC44260 /* TCSystemUtil+Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A4B95D2220C1503FF665880F9345668 /* NSObject+TCJSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CC60DBD84F39A2A690958A9B2C3E5AED /* NSObject+TCJSONUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F54E8E6171D774EAA9E4060946D573A /* TCNetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9B8C10653A57679C692B1C520DCCD2 /* TCNetworkUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		320C40E993FE2F6268CDA38126A4BD7E /* NSSet+TCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D50C8D854963802F1730A9930EF0F726 /* NSSet+TCContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348E0CCDE6C78E31BF5BAE03A812CBDE /* TCFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 034A3260FD269BBE4CEDC705EBF8D442 /* TCFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3603E9484034A931F635AFC87BD42A91 /* NSError+TCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6726A4605D88FC0204621AAF62D4C0C1 /* NSError+TCUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E0F4D09231ED60CEE0E4DFC9E028FFC /* TCKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 56122AAECCDE1A318381AD109E796B92 /* TCKeychainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		440EC821C7277DA3B1F38047D173802B /* TCUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 112B72F830C73B761DABB8A7ADDAA75F /* TCUtil-dummy.m */; };
-		45353054508E457E361FDA00CD2A872F /* TCGraphicUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 692A3E698E89AC6B05D2BACC51DD269F /* TCGraphicUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48B49EE0A1AF544950DD118C7456F627 /* NSDictionary+TCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F9424DF8029964EB409059FDEBFB13A7 /* NSDictionary+TCContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48F2B66BEA2C3CE7D1AFFD508AD1B465 /* TCUtilMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DECA0215ED37F748B3524B3DB7F9E4 /* TCUtilMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51A8622EA484408A6C7FC83F3F27907D /* TCDebugUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 79114E8BDD51D4B40ACDA64C2100DD7A /* TCDebugUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A693188EE17FA5356851246C277E7F6 /* TCUtil in Sources */ = {isa = PBXBuildFile; fileRef = 6A62CC0A091A09BAA0209457E30D8B6A /* TCUtil */; };
-		600642B1C1DE08F94BF7FD4E44A12AF7 /* TCRSAUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F67009D1AD753D362AACF18B455F74A3 /* TCRSAUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607515184E757BD2FA830785CF8DD301 /* TCFileUtil+Path.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2F4BD9A7A55623328E98BC2E81F9E2 /* TCFileUtil+Path.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B0F89D8CD6BF3DBE6810E4E11B6F99C /* NSArray+TCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D552254EF16B05B63C87C16AE1C8980A /* NSArray+TCContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E6A7646766DC8A2F5881A54F15ACEA1 /* TCWeakMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2310D1CD10D674CA8A94415AD6371FF7 /* TCWeakMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7580FECB206895D9F717C09B308172D7 /* TCGraphicUtil+Coordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2235D308C2F2524A13856EBD4296D737 /* TCGraphicUtil+Coordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82AC727603D2690327272CEC715D6068 /* TCDebugTime.h in Headers */ = {isa = PBXBuildFile; fileRef = B743DEF2D9620F4670F3C470C52DDAB5 /* TCDebugTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		884C9BB3AF21292D8C3F37C0DC914D84 /* TCWeakMutableSet.h in Headers */ = {isa = PBXBuildFile; fileRef = A7224AA94334BA86F6D98D6FD8F2B092 /* TCWeakMutableSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89713F972075A5839F8235295CCE07B7 /* NSObject+TCSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB15A4486FF2C57E3764B7650D2329E /* NSObject+TCSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B7B91EE74FD95F38C3A4DEF8CC27310 /* TCArrayProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE69DCB3841DD806D2963154D1C6FE1 /* TCArrayProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D1FAC2E97CE903B4B4A99C8A25C7106 /* NSString+TCBaseExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A7CB6E97A276D091A60D56481F0ADC /* NSString+TCBaseExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F13F4013F03C9E7F792C5AEAF575D04 /* TCSqliteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DF4736009CD30251962A7F6460CC96 /* TCSqliteUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		929F56ABD96FF616A26B2E8DFBE0184B /* NSNumber+TCBaseExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 20722029D0F5DFACE90B79E8B2FE5515 /* NSNumber+TCBaseExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93FF76092AF1C83E7B507A5A65D7430F /* Pods-TCUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8330720C1CACA6B2566BC8462A473A8C /* Pods-TCUtil_Tests-dummy.m */; };
 		A64EF44509C6FD2DF4417008DE59672B /* Pods-TCUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA03B2D327E158EBC0BD24BD172C3AFA /* Pods-TCUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98E1F03420D0BD31BE4DC4B63BCD254 /* TCWeakMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B1E831563D8F25D76386789C7C379D /* TCWeakMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC2E6AB2A569939642F7E166CFCD3764 /* TCPEMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F07DBA52379F88CB39E276B836148CA3 /* TCPEMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD05FF4CF83A195076760324B260B320 /* TCWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 675CFB67BADE1F0285C684837F621A1C /* TCWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEAAF1C4CCB1AE805284DD237CF7F2EA /* TCWeakContainerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C32979038B85EBFE2B2F46B5E110800C /* TCWeakContainerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2CE21099A0549DE7BB7CC569C268163 /* TCUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C19C54EE7B9093FB0F3818E3973AC01F /* TCUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4D9DFCA2331216707D418D012E53704 /* NSObject+TCBaseExt.h in Headers */ = {isa = PBXBuildFile; fileRef = C33F7320A8E62B7717BE22F0DC8E9CA0 /* NSObject+TCBaseExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC596B1961F0D2C17B151C2BA9C31036 /* NSString+TCNetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EB851F595D619EFF03C20A6B480E7330 /* NSString+TCNetworkUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF29CC214FBA5364D3AD02620362FFDD /* NSMutableDictionary+TCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8606C280FB9CD8E7930191D638CCB146 /* NSMutableDictionary+TCContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3841145B0EA22505E8B63257A883F92 /* Pods-TCUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE1B307C86E2D0FDB86BC14C18E0C1 /* Pods-TCUtil_Example-dummy.m */; };
-		C8C0024F963FA7BA0D9E763425702233 /* TCSystemUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DA9ECAEB74509A55FC80D450D6ECAE /* TCSystemUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0FEFB717DD74862905159DE8A25A14 /* TCBlackWhiteList.h in Headers */ = {isa = PBXBuildFile; fileRef = 52378720E8FAC2926D155F8E2EB661E6 /* TCBlackWhiteList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D166C87B5946389D6922B7EF44B93CE4 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 4E4307AC5F180A7FAEAD04B2B86D794B /* module.modulemap */; };
 		D3FE348A58F7BB8A690BCCC3C711F025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D4BBA2B36A048C72EC0820B7B116D2CB /* TCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A817C189EEEEC42302D2AAB6DB0A39C /* TCUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCE76AD8232B2EA20E2AD50BDA0294AD /* Pods-TCUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3720258D66347C72302D4AD0CA3E4438 /* Pods-TCUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6647AE172D4FACDFDFD7C54E27B0710 /* TCRuntimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AEA6B4FB804AEE4D3DF1464F56A4AC /* TCRuntimeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6F248D2E088536BB90150D38F92BE66 /* NSRegularExpression+TCBaseExt.h in Headers */ = {isa = PBXBuildFile; fileRef = A148BB7F7DEDCAC93CAE8EBF49263683 /* NSRegularExpression+TCBaseExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8607025A994D4C4113AA3FCDFFEBECE /* TCMD5Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B0D5DB5542000F1229D9D395DA080F /* TCMD5Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA20C5A4F0720FE50010372FAC7BAF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EFC916977223CF33928FDF267E9F29D1 /* TCDesUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB369D896C3190DDCFD9A6B80103C384 /* TCDesUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1BA87AEC8FC32207E17219ED241AC77 /* NSMutableArray+TCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D67C9282B3AAECA5E123D5D0B85AE5C /* NSMutableArray+TCContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F410256B89F7288AF20DA2E9AD02EBAC /* TCMathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A727A9126F980FB7DC3E2414F64955 /* TCMathUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEAE5CB217D02216FDE825EBFBB392AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08CEBA7BEA92E44B689612984554C1BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55EF39035865BC9F28E6627BC3FA8903;
-			remoteInfo = TCUtil;
-		};
-		EC35EE89DBEACBE27A3D31D540C75EC9 /* PBXContainerItemProxy */ = {
+		012056DD2614B4D3966B8E2C7A2275ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1FC92FBECDBE4EDAD232A1C1CA56E1B6;
 			remoteInfo = "Pods-TCUtil_Example";
 		};
+		775DF365387C589169CE6692DB4563D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55EF39035865BC9F28E6627BC3FA8903;
+			remoteInfo = TCUtil;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022BDE2AE83ECFFDDD19A72E935E000A /* TCCoordinationFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCCoordinationFunctions.h; sourceTree = "<group>"; };
-		034A3260FD269BBE4CEDC705EBF8D442 /* TCFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCFileUtil.h; sourceTree = "<group>"; };
 		092A56DCBC5B32B12DF52C083FBB0248 /* Pods-TCUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B2F4BD9A7A55623328E98BC2E81F9E2 /* TCFileUtil+Path.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCFileUtil+Path.h"; sourceTree = "<group>"; };
-		0D67C9282B3AAECA5E123D5D0B85AE5C /* NSMutableArray+TCContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TCContainer.h"; sourceTree = "<group>"; };
-		112B72F830C73B761DABB8A7ADDAA75F /* TCUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCUtil-dummy.m"; sourceTree = "<group>"; };
-		12607EDA3191DD93520BF8C350C53A4E /* TCUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCUtil.framework; path = TCUtil/Classes/TCUtil.framework; sourceTree = "<group>"; };
-		132D1839A1CDF0239C5BFB1A4D273F8A /* TCDictionaryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCDictionaryProtocol.h; sourceTree = "<group>"; };
+		149DB5037758438468628CE78C11B322 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		15CAE80BF5FDF23139D69050F27024C4 /* TCUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCUtil.release.xcconfig; sourceTree = "<group>"; };
 		19301888A9F61D8046AB8C7E3616119C /* Pods-TCUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCUtil_Example.modulemap"; sourceTree = "<group>"; };
 		19E5C6FA23DC4E158706EC178F8BDB8F /* Pods-TCUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCUtil_Example-Info.plist"; sourceTree = "<group>"; };
 		1C9D791F9015CC5249A8571FAFE265EF /* Pods-TCUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		20722029D0F5DFACE90B79E8B2FE5515 /* NSNumber+TCBaseExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TCBaseExt.h"; sourceTree = "<group>"; };
 		21A7BDF5BBF7D5DA6AC616EC31927415 /* Pods-TCUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		21B0059272640B348F08AC88230232D2 /* NSObject+TCSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TCSwizzle.h"; sourceTree = "<group>"; };
-		2235D308C2F2524A13856EBD4296D737 /* TCGraphicUtil+Coordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCGraphicUtil+Coordinate.h"; sourceTree = "<group>"; };
-		2310D1CD10D674CA8A94415AD6371FF7 /* TCWeakMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCWeakMutableDictionary.h; sourceTree = "<group>"; };
-		23DDB157D95B62592DE937FB3F405E4B /* TCUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCUtil.framework; path = TCUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		265702C9EC55731034A7ACA5D2B678BB /* Pods_TCUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCUtil_Tests.framework; path = "Pods-TCUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A2B690432F6DACAE5EC7F1704E5BAF5 /* TCContainerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCContainerProtocol.h; sourceTree = "<group>"; };
-		2F9B8C10653A57679C692B1C520DCCD2 /* TCNetworkUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCNetworkUtil.h; sourceTree = "<group>"; };
-		31DF4736009CD30251962A7F6460CC96 /* TCSqliteUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCSqliteUtil.h; sourceTree = "<group>"; };
+		34E9700E0F9A1F2261A2158708A43BD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3720258D66347C72302D4AD0CA3E4438 /* Pods-TCUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3787D227C8FC0FE0B373C642765E79C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3FFF39BAF55404F0898D99AEC6A0DF59 /* Pods-TCUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		482024702814EA596BE585BA0C8C963D /* Pods-TCUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		48D596BD9EAD00D9E1EF3C189FC44260 /* TCSystemUtil+Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCSystemUtil+Device.h"; sourceTree = "<group>"; };
-		4A111D2C504CACAE875BC85A0DF0F93E /* TCUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TCUtil-Info.plist"; sourceTree = "<group>"; };
 		4BC99FF8B4B7BD941DC70E6EE013CAA0 /* Pods-TCUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E4307AC5F180A7FAEAD04B2B86D794B /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		4F6B3D5D30E436E1D62168CA27AB258E /* Pods_TCUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCUtil_Example.framework; path = "Pods-TCUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FE69DCB3841DD806D2963154D1C6FE1 /* TCArrayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCArrayProtocol.h; sourceTree = "<group>"; };
-		52378720E8FAC2926D155F8E2EB661E6 /* TCBlackWhiteList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCBlackWhiteList.h; sourceTree = "<group>"; };
-		56122AAECCDE1A318381AD109E796B92 /* TCKeychainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCKeychainItemWrapper.h; sourceTree = "<group>"; };
-		58CF41777130ABDB87FFA41413413D6D /* TCVersionComparation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCVersionComparation.h; sourceTree = "<group>"; };
 		623BB1C9FE5FDEA14C179147D6DFED49 /* Pods-TCUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		636ACC75C8E859604295106C4EA03421 /* TCUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCUtil.debug.xcconfig; sourceTree = "<group>"; };
-		6726A4605D88FC0204621AAF62D4C0C1 /* NSError+TCUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+TCUtil.h"; sourceTree = "<group>"; };
-		675CFB67BADE1F0285C684837F621A1C /* TCWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCWeakTimer.h; sourceTree = "<group>"; };
-		692A3E698E89AC6B05D2BACC51DD269F /* TCGraphicUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCGraphicUtil.h; sourceTree = "<group>"; };
-		6A62CC0A091A09BAA0209457E30D8B6A /* TCUtil */ = {isa = PBXFileReference; includeInIndex = 1; name = TCUtil; path = TCUtil/Classes/TCUtil.framework/TCUtil; sourceTree = "<group>"; };
+		6EAD028EFDC8B32E8443A42D021484F4 /* TCUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCUtil.framework; path = TCUtil/Frameworks/TCUtil.framework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73B0D5DB5542000F1229D9D395DA080F /* TCMD5Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCMD5Util.h; sourceTree = "<group>"; };
 		749CFCBBAEB158CCF2582CB9E911439B /* Pods-TCUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCUtil_Tests-Info.plist"; sourceTree = "<group>"; };
-		79114E8BDD51D4B40ACDA64C2100DD7A /* TCDebugUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCDebugUtil.h; sourceTree = "<group>"; };
-		7A817C189EEEEC42302D2AAB6DB0A39C /* TCUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCUtil.h; sourceTree = "<group>"; };
-		7BB15A4486FF2C57E3764B7650D2329E /* NSObject+TCSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TCSelector.h"; sourceTree = "<group>"; };
 		7DBE1B307C86E2D0FDB86BC14C18E0C1 /* Pods-TCUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		8330720C1CACA6B2566BC8462A473A8C /* Pods-TCUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCUtil_Tests-dummy.m"; sourceTree = "<group>"; };
-		8606C280FB9CD8E7930191D638CCB146 /* NSMutableDictionary+TCContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TCContainer.h"; sourceTree = "<group>"; };
-		87DA9ECAEB74509A55FC80D450D6ECAE /* TCSystemUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCSystemUtil.h; sourceTree = "<group>"; };
-		8C0B59B1BC89787DBCF0052A4609CDF2 /* TCUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCUtil.modulemap; sourceTree = "<group>"; };
-		96190156724EC33A53533A82FDD0F140 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A138827107CA93F5B6C5619C7948F42B /* Pods-TCUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A148BB7F7DEDCAC93CAE8EBF49263683 /* NSRegularExpression+TCBaseExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+TCBaseExt.h"; sourceTree = "<group>"; };
-		A168B0C1E6990BC1332819F6075F0263 /* TCUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TCUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7224AA94334BA86F6D98D6FD8F2B092 /* TCWeakMutableSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCWeakMutableSet.h; sourceTree = "<group>"; };
-		A872060A62F384219918F46605881012 /* TCUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCUtil-prefix.pch"; sourceTree = "<group>"; };
-		AFB7621BE39A7E5D36DA0BBCA6A4BAFE /* NSFileManager+TCGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TCGenerator.h"; sourceTree = "<group>"; };
-		B743DEF2D9620F4670F3C470C52DDAB5 /* TCDebugTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCDebugTime.h; sourceTree = "<group>"; };
-		B9DECA0215ED37F748B3524B3DB7F9E4 /* TCUtilMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCUtilMacro.h; sourceTree = "<group>"; };
-		BB369D896C3190DDCFD9A6B80103C384 /* TCDesUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCDesUtil.h; sourceTree = "<group>"; };
-		C19C54EE7B9093FB0F3818E3973AC01F /* TCUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCUtil-umbrella.h"; sourceTree = "<group>"; };
-		C32979038B85EBFE2B2F46B5E110800C /* TCWeakContainerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCWeakContainerItem.h; sourceTree = "<group>"; };
-		C33F7320A8E62B7717BE22F0DC8E9CA0 /* NSObject+TCBaseExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TCBaseExt.h"; sourceTree = "<group>"; };
-		CC60DBD84F39A2A690958A9B2C3E5AED /* NSObject+TCJSONUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TCJSONUtil.h"; sourceTree = "<group>"; };
-		D1A771B4A533E5D5AE309647940A8F3D /* TCWeakDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCWeakDelegate.h; sourceTree = "<group>"; };
-		D50C8D854963802F1730A9930EF0F726 /* NSSet+TCContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+TCContainer.h"; sourceTree = "<group>"; };
-		D552254EF16B05B63C87C16AE1C8980A /* NSArray+TCContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+TCContainer.h"; sourceTree = "<group>"; };
 		DA03B2D327E158EBC0BD24BD172C3AFA /* Pods-TCUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD13FFF819F0A6AC61C768B63991B5E7 /* TCUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TCUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DFAC1A79016CE79AFC9CBAAA7C167FFB /* Pods-TCUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E4A727A9126F980FB7DC3E2414F64955 /* TCMathUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCMathUtil.h; sourceTree = "<group>"; };
-		E4B1E831563D8F25D76386789C7C379D /* TCWeakMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCWeakMutableArray.h; sourceTree = "<group>"; };
-		EB851F595D619EFF03C20A6B480E7330 /* NSString+TCNetworkUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TCNetworkUtil.h"; sourceTree = "<group>"; };
-		ECC469796B86C89C27C444E82A4B7612 /* TCUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCUtil.release.xcconfig; sourceTree = "<group>"; };
-		F07DBA52379F88CB39E276B836148CA3 /* TCPEMUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCPEMUtil.h; sourceTree = "<group>"; };
-		F0C5EE68A2E74FAACECAA31CE06035F7 /* TCRequestHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCRequestHelper.h; sourceTree = "<group>"; };
-		F67009D1AD753D362AACF18B455F74A3 /* TCRSAUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCRSAUtil.h; sourceTree = "<group>"; };
-		F6AEA6B4FB804AEE4D3DF1464F56A4AC /* TCRuntimeUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCRuntimeUtil.h; sourceTree = "<group>"; };
-		F9424DF8029964EB409059FDEBFB13A7 /* NSDictionary+TCContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TCContainer.h"; sourceTree = "<group>"; };
-		F9A7CB6E97A276D091A60D56481F0ADC /* NSString+TCBaseExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TCBaseExt.h"; sourceTree = "<group>"; };
+		FFD8F4D9245C6C31754A5C004F46FB0A /* TCUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCUtil.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,23 +90,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4374604BF1426D18D599C177BA60BAD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEAE5CB217D02216FDE825EBFBB392AA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3646FEF6B29D832A5B118E9F63A6A9CE /* Frameworks */ = {
+		2AEC18C6F1C0E66687DF8AB1BCBCFE30 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				12607EDA3191DD93520BF8C350C53A4E /* TCUtil.framework */,
+				B1A9EF231E67C309FB74BD0440850B21 /* TCUtil */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		380F971621D27C3973C378DD6A1DDC31 /* Pods-TCUtil_Example */ = {
@@ -220,28 +117,6 @@
 			path = "Target Support Files/Pods-TCUtil_Example";
 			sourceTree = "<group>";
 		};
-		535BE62C70D8DFD706392F7E2D4164A6 /* TCUtil */ = {
-			isa = PBXGroup;
-			children = (
-				6A62CC0A091A09BAA0209457E30D8B6A /* TCUtil */,
-				3646FEF6B29D832A5B118E9F63A6A9CE /* Frameworks */,
-				FE27BABB2ADE9550A7913D5B0E6856C9 /* Headers */,
-				F481AE3E9D840E335ECE704C400B445A /* Modules */,
-				5C60D7DFA4B764CF8CD8F56BB426E51C /* Pod */,
-				F024BA691DB7440F4C45B01F4AB8B36A /* Support Files */,
-			);
-			name = TCUtil;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		56F6B9F2DFC258D9EB92791C8DE6C57E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				535BE62C70D8DFD706392F7E2D4164A6 /* TCUtil */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,14 +125,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5C60D7DFA4B764CF8CD8F56BB426E51C /* Pod */ = {
+		69041C58444D9AE71D309A7D2F414262 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3787D227C8FC0FE0B373C642765E79C6 /* LICENSE */,
-				96190156724EC33A53533A82FDD0F140 /* README.md */,
-				A168B0C1E6990BC1332819F6075F0263 /* TCUtil.podspec */,
+				4F6B3D5D30E436E1D62168CA27AB258E /* Pods_TCUtil_Example.framework */,
+				265702C9EC55731034A7ACA5D2B678BB /* Pods_TCUtil_Tests.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7C27476DE4A15E3D6F583E203837D3E8 /* Targets Support Files */ = {
@@ -285,23 +159,34 @@
 			path = "Target Support Files/Pods-TCUtil_Tests";
 			sourceTree = "<group>";
 		};
-		CE40A18F2080689C13050B73743F8BF2 /* Products */ = {
+		B1A9EF231E67C309FB74BD0440850B21 /* TCUtil */ = {
 			isa = PBXGroup;
 			children = (
-				4F6B3D5D30E436E1D62168CA27AB258E /* Pods_TCUtil_Example.framework */,
-				265702C9EC55731034A7ACA5D2B678BB /* Pods_TCUtil_Tests.framework */,
-				23DDB157D95B62592DE937FB3F405E4B /* TCUtil.framework */,
+				F64A7F032C6AA914A39DE329EF2D8BA4 /* Frameworks */,
+				EFBFF7C124DD7B88CC6014CF529A89D2 /* Pod */,
+				CAB6C6CC6859AF6F3C24215A73E6B564 /* Support Files */,
 			);
-			name = Products;
+			name = TCUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CAB6C6CC6859AF6F3C24215A73E6B564 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD8F4D9245C6C31754A5C004F46FB0A /* TCUtil.debug.xcconfig */,
+				15CAE80BF5FDF23139D69050F27024C4 /* TCUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TCUtil";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				56F6B9F2DFC258D9EB92791C8DE6C57E /* Development Pods */,
+				2AEC18C6F1C0E66687DF8AB1BCBCFE30 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CE40A18F2080689C13050B73743F8BF2 /* Products */,
+				69041C58444D9AE71D309A7D2F414262 /* Products */,
 				7C27476DE4A15E3D6F583E203837D3E8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -314,143 +199,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F024BA691DB7440F4C45B01F4AB8B36A /* Support Files */ = {
+		EFBFF7C124DD7B88CC6014CF529A89D2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8C0B59B1BC89787DBCF0052A4609CDF2 /* TCUtil.modulemap */,
-				112B72F830C73B761DABB8A7ADDAA75F /* TCUtil-dummy.m */,
-				4A111D2C504CACAE875BC85A0DF0F93E /* TCUtil-Info.plist */,
-				A872060A62F384219918F46605881012 /* TCUtil-prefix.pch */,
-				C19C54EE7B9093FB0F3818E3973AC01F /* TCUtil-umbrella.h */,
-				636ACC75C8E859604295106C4EA03421 /* TCUtil.debug.xcconfig */,
-				ECC469796B86C89C27C444E82A4B7612 /* TCUtil.release.xcconfig */,
+				34E9700E0F9A1F2261A2158708A43BD6 /* LICENSE */,
+				149DB5037758438468628CE78C11B322 /* README.md */,
+				DD13FFF819F0A6AC61C768B63991B5E7 /* TCUtil.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TCUtil";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		F481AE3E9D840E335ECE704C400B445A /* Modules */ = {
+		F64A7F032C6AA914A39DE329EF2D8BA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E4307AC5F180A7FAEAD04B2B86D794B /* module.modulemap */,
+				6EAD028EFDC8B32E8443A42D021484F4 /* TCUtil.framework */,
 			);
-			name = Modules;
-			path = TCUtil/Classes/TCUtil.framework/Modules;
-			sourceTree = "<group>";
-		};
-		FE27BABB2ADE9550A7913D5B0E6856C9 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				D552254EF16B05B63C87C16AE1C8980A /* NSArray+TCContainer.h */,
-				F9424DF8029964EB409059FDEBFB13A7 /* NSDictionary+TCContainer.h */,
-				6726A4605D88FC0204621AAF62D4C0C1 /* NSError+TCUtil.h */,
-				AFB7621BE39A7E5D36DA0BBCA6A4BAFE /* NSFileManager+TCGenerator.h */,
-				0D67C9282B3AAECA5E123D5D0B85AE5C /* NSMutableArray+TCContainer.h */,
-				8606C280FB9CD8E7930191D638CCB146 /* NSMutableDictionary+TCContainer.h */,
-				20722029D0F5DFACE90B79E8B2FE5515 /* NSNumber+TCBaseExt.h */,
-				C33F7320A8E62B7717BE22F0DC8E9CA0 /* NSObject+TCBaseExt.h */,
-				CC60DBD84F39A2A690958A9B2C3E5AED /* NSObject+TCJSONUtil.h */,
-				7BB15A4486FF2C57E3764B7650D2329E /* NSObject+TCSelector.h */,
-				21B0059272640B348F08AC88230232D2 /* NSObject+TCSwizzle.h */,
-				A148BB7F7DEDCAC93CAE8EBF49263683 /* NSRegularExpression+TCBaseExt.h */,
-				D50C8D854963802F1730A9930EF0F726 /* NSSet+TCContainer.h */,
-				F9A7CB6E97A276D091A60D56481F0ADC /* NSString+TCBaseExt.h */,
-				EB851F595D619EFF03C20A6B480E7330 /* NSString+TCNetworkUtil.h */,
-				4FE69DCB3841DD806D2963154D1C6FE1 /* TCArrayProtocol.h */,
-				52378720E8FAC2926D155F8E2EB661E6 /* TCBlackWhiteList.h */,
-				2A2B690432F6DACAE5EC7F1704E5BAF5 /* TCContainerProtocol.h */,
-				022BDE2AE83ECFFDDD19A72E935E000A /* TCCoordinationFunctions.h */,
-				B743DEF2D9620F4670F3C470C52DDAB5 /* TCDebugTime.h */,
-				79114E8BDD51D4B40ACDA64C2100DD7A /* TCDebugUtil.h */,
-				BB369D896C3190DDCFD9A6B80103C384 /* TCDesUtil.h */,
-				132D1839A1CDF0239C5BFB1A4D273F8A /* TCDictionaryProtocol.h */,
-				034A3260FD269BBE4CEDC705EBF8D442 /* TCFileUtil.h */,
-				0B2F4BD9A7A55623328E98BC2E81F9E2 /* TCFileUtil+Path.h */,
-				692A3E698E89AC6B05D2BACC51DD269F /* TCGraphicUtil.h */,
-				2235D308C2F2524A13856EBD4296D737 /* TCGraphicUtil+Coordinate.h */,
-				56122AAECCDE1A318381AD109E796B92 /* TCKeychainItemWrapper.h */,
-				E4A727A9126F980FB7DC3E2414F64955 /* TCMathUtil.h */,
-				73B0D5DB5542000F1229D9D395DA080F /* TCMD5Util.h */,
-				2F9B8C10653A57679C692B1C520DCCD2 /* TCNetworkUtil.h */,
-				F07DBA52379F88CB39E276B836148CA3 /* TCPEMUtil.h */,
-				F0C5EE68A2E74FAACECAA31CE06035F7 /* TCRequestHelper.h */,
-				F67009D1AD753D362AACF18B455F74A3 /* TCRSAUtil.h */,
-				F6AEA6B4FB804AEE4D3DF1464F56A4AC /* TCRuntimeUtil.h */,
-				31DF4736009CD30251962A7F6460CC96 /* TCSqliteUtil.h */,
-				87DA9ECAEB74509A55FC80D450D6ECAE /* TCSystemUtil.h */,
-				48D596BD9EAD00D9E1EF3C189FC44260 /* TCSystemUtil+Device.h */,
-				7A817C189EEEEC42302D2AAB6DB0A39C /* TCUtil.h */,
-				B9DECA0215ED37F748B3524B3DB7F9E4 /* TCUtilMacro.h */,
-				58CF41777130ABDB87FFA41413413D6D /* TCVersionComparation.h */,
-				C32979038B85EBFE2B2F46B5E110800C /* TCWeakContainerItem.h */,
-				D1A771B4A533E5D5AE309647940A8F3D /* TCWeakDelegate.h */,
-				E4B1E831563D8F25D76386789C7C379D /* TCWeakMutableArray.h */,
-				2310D1CD10D674CA8A94415AD6371FF7 /* TCWeakMutableDictionary.h */,
-				A7224AA94334BA86F6D98D6FD8F2B092 /* TCWeakMutableSet.h */,
-				675CFB67BADE1F0285C684837F621A1C /* TCWeakTimer.h */,
-			);
-			name = Headers;
-			path = TCUtil/Classes/TCUtil.framework/Headers;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C4B0A28E0BCA7CD9A66EB44D61FA7ED /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B0F89D8CD6BF3DBE6810E4E11B6F99C /* NSArray+TCContainer.h in Headers */,
-				48B49EE0A1AF544950DD118C7456F627 /* NSDictionary+TCContainer.h in Headers */,
-				3603E9484034A931F635AFC87BD42A91 /* NSError+TCUtil.h in Headers */,
-				18B0EF1497A4AD99E89ABE7DDBB6ADC3 /* NSFileManager+TCGenerator.h in Headers */,
-				F1BA87AEC8FC32207E17219ED241AC77 /* NSMutableArray+TCContainer.h in Headers */,
-				BF29CC214FBA5364D3AD02620362FFDD /* NSMutableDictionary+TCContainer.h in Headers */,
-				929F56ABD96FF616A26B2E8DFBE0184B /* NSNumber+TCBaseExt.h in Headers */,
-				B4D9DFCA2331216707D418D012E53704 /* NSObject+TCBaseExt.h in Headers */,
-				2A4B95D2220C1503FF665880F9345668 /* NSObject+TCJSONUtil.h in Headers */,
-				89713F972075A5839F8235295CCE07B7 /* NSObject+TCSelector.h in Headers */,
-				16F68062EB6A08584A890E2D793E6056 /* NSObject+TCSwizzle.h in Headers */,
-				E6F248D2E088536BB90150D38F92BE66 /* NSRegularExpression+TCBaseExt.h in Headers */,
-				320C40E993FE2F6268CDA38126A4BD7E /* NSSet+TCContainer.h in Headers */,
-				8D1FAC2E97CE903B4B4A99C8A25C7106 /* NSString+TCBaseExt.h in Headers */,
-				BC596B1961F0D2C17B151C2BA9C31036 /* NSString+TCNetworkUtil.h in Headers */,
-				8B7B91EE74FD95F38C3A4DEF8CC27310 /* TCArrayProtocol.h in Headers */,
-				CC0FEFB717DD74862905159DE8A25A14 /* TCBlackWhiteList.h in Headers */,
-				039C3B36BB76B3B476330AE3F3927C2B /* TCContainerProtocol.h in Headers */,
-				04F60E7FE33E6EB02AA897E6456876B9 /* TCCoordinationFunctions.h in Headers */,
-				82AC727603D2690327272CEC715D6068 /* TCDebugTime.h in Headers */,
-				51A8622EA484408A6C7FC83F3F27907D /* TCDebugUtil.h in Headers */,
-				EFC916977223CF33928FDF267E9F29D1 /* TCDesUtil.h in Headers */,
-				251DA8779AD690D38BEACF12DDCCA752 /* TCDictionaryProtocol.h in Headers */,
-				607515184E757BD2FA830785CF8DD301 /* TCFileUtil+Path.h in Headers */,
-				348E0CCDE6C78E31BF5BAE03A812CBDE /* TCFileUtil.h in Headers */,
-				7580FECB206895D9F717C09B308172D7 /* TCGraphicUtil+Coordinate.h in Headers */,
-				45353054508E457E361FDA00CD2A872F /* TCGraphicUtil.h in Headers */,
-				3E0F4D09231ED60CEE0E4DFC9E028FFC /* TCKeychainItemWrapper.h in Headers */,
-				F410256B89F7288AF20DA2E9AD02EBAC /* TCMathUtil.h in Headers */,
-				E8607025A994D4C4113AA3FCDFFEBECE /* TCMD5Util.h in Headers */,
-				2F54E8E6171D774EAA9E4060946D573A /* TCNetworkUtil.h in Headers */,
-				AC2E6AB2A569939642F7E166CFCD3764 /* TCPEMUtil.h in Headers */,
-				26A2FFFD8B5C96069CEFF9A2272F4FAB /* TCRequestHelper.h in Headers */,
-				600642B1C1DE08F94BF7FD4E44A12AF7 /* TCRSAUtil.h in Headers */,
-				E6647AE172D4FACDFDFD7C54E27B0710 /* TCRuntimeUtil.h in Headers */,
-				8F13F4013F03C9E7F792C5AEAF575D04 /* TCSqliteUtil.h in Headers */,
-				27611C760075D548E143FA17B77AD304 /* TCSystemUtil+Device.h in Headers */,
-				C8C0024F963FA7BA0D9E763425702233 /* TCSystemUtil.h in Headers */,
-				B2CE21099A0549DE7BB7CC569C268163 /* TCUtil-umbrella.h in Headers */,
-				D4BBA2B36A048C72EC0820B7B116D2CB /* TCUtil.h in Headers */,
-				48F2B66BEA2C3CE7D1AFFD508AD1B465 /* TCUtilMacro.h in Headers */,
-				01299D4960E45AEDFE184237070FD3DE /* TCVersionComparation.h in Headers */,
-				AEAAF1C4CCB1AE805284DD237CF7F2EA /* TCWeakContainerItem.h in Headers */,
-				092B5D7363258EF05204A0D875F829B5 /* TCWeakDelegate.h in Headers */,
-				A98E1F03420D0BD31BE4DC4B63BCD254 /* TCWeakMutableArray.h in Headers */,
-				6E6A7646766DC8A2F5881A54F15ACEA1 /* TCWeakMutableDictionary.h in Headers */,
-				884C9BB3AF21292D8C3F37C0DC914D84 /* TCWeakMutableSet.h in Headers */,
-				AD05FF4CF83A195076760324B260B320 /* TCWeakTimer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C958082D6CA7D4A36BD72CA6A04BCF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,29 +251,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				86FEFCB6A002B4AACACB94D8E3AAB478 /* PBXTargetDependency */,
+				CF5C6C68D5251E47900D2AD1C10366E7 /* PBXTargetDependency */,
 			);
 			name = "Pods-TCUtil_Example";
 			productName = "Pods-TCUtil_Example";
 			productReference = 4F6B3D5D30E436E1D62168CA27AB258E /* Pods_TCUtil_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		55EF39035865BC9F28E6627BC3FA8903 /* TCUtil */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CBFD01E50F66BF5FFC11DB35FEF3FB67 /* Build configuration list for PBXNativeTarget "TCUtil" */;
-			buildPhases = (
-				0C4B0A28E0BCA7CD9A66EB44D61FA7ED /* Headers */,
-				F67A6281A75693D6EA273BA49C7C71DB /* Sources */,
-				C4374604BF1426D18D599C177BA60BAD /* Frameworks */,
-				F78839058EEC77E8DD0766684FE3D040 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TCUtil;
-			productName = TCUtil;
-			productReference = 23DDB157D95B62592DE937FB3F405E4B /* TCUtil.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7C2B25E7E2C50E7F25193E6D89FED0D1 /* Pods-TCUtil_Tests */ = {
@@ -519,7 +270,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				284B8B5D52B28DE67504A09ED56DFBF9 /* PBXTargetDependency */,
+				4C927DF51305BD56E4E10554E768596F /* PBXTargetDependency */,
 			);
 			name = "Pods-TCUtil_Tests";
 			productName = "Pods-TCUtil_Tests";
@@ -544,7 +295,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CE40A18F2080689C13050B73743F8BF2 /* Products */;
+			productRefGroup = 69041C58444D9AE71D309A7D2F414262 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -570,13 +321,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F78839058EEC77E8DD0766684FE3D040 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -596,30 +340,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F67A6281A75693D6EA273BA49C7C71DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D166C87B5946389D6922B7EF44B93CE4 /* module.modulemap in Sources */,
-				5A693188EE17FA5356851246C277E7F6 /* TCUtil in Sources */,
-				440EC821C7277DA3B1F38047D173802B /* TCUtil-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		284B8B5D52B28DE67504A09ED56DFBF9 /* PBXTargetDependency */ = {
+		4C927DF51305BD56E4E10554E768596F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TCUtil_Example";
 			target = 1FC92FBECDBE4EDAD232A1C1CA56E1B6 /* Pods-TCUtil_Example */;
-			targetProxy = EC35EE89DBEACBE27A3D31D540C75EC9 /* PBXContainerItemProxy */;
+			targetProxy = 012056DD2614B4D3966B8E2C7A2275ED /* PBXContainerItemProxy */;
 		};
-		86FEFCB6A002B4AACACB94D8E3AAB478 /* PBXTargetDependency */ = {
+		CF5C6C68D5251E47900D2AD1C10366E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TCUtil;
 			target = 55EF39035865BC9F28E6627BC3FA8903 /* TCUtil */;
-			targetProxy = 08CEBA7BEA92E44B689612984554C1BE /* PBXContainerItemProxy */;
+			targetProxy = 775DF365387C589169CE6692DB4563D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -755,37 +489,6 @@
 			};
 			name = Debug;
 		};
-		309A0485C8052C05C77AC1B2416D19C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 636ACC75C8E859604295106C4EA03421 /* TCUtil.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TCUtil/TCUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TCUtil/TCUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/TCUtil/TCUtil.modulemap";
-				PRODUCT_MODULE_NAME = TCUtil;
-				PRODUCT_NAME = TCUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3B03251803E6F041283BB0BE608CE79C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 092A56DCBC5B32B12DF52C083FBB0248 /* Pods-TCUtil_Tests.debug.xcconfig */;
@@ -818,35 +521,17 @@
 			};
 			name = Debug;
 		};
-		62B19891F80391B77449C546D0D003E3 /* Release */ = {
+		5D992E9C2F8BEE7FF263FF04832C2EF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC469796B86C89C27C444E82A4B7612 /* TCUtil.release.xcconfig */;
+			baseConfigurationReference = 15CAE80BF5FDF23139D69050F27024C4 /* TCUtil.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TCUtil/TCUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TCUtil/TCUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/TCUtil/TCUtil.modulemap";
-				PRODUCT_MODULE_NAME = TCUtil;
-				PRODUCT_NAME = TCUtil;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -945,6 +630,19 @@
 			};
 			name = Release;
 		};
+		E4E31F98A79F73EC5D578653D51BB78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD8F4D9245C6C31754A5C004F46FB0A /* TCUtil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -966,20 +664,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B547E7FBB97BBC347EADFB8A7A12918F /* Build configuration list for PBXAggregateTarget "TCUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E31F98A79F73EC5D578653D51BB78F /* Debug */,
+				5D992E9C2F8BEE7FF263FF04832C2EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B69B711A4773B4CAD4DBB386F9978DCA /* Build configuration list for PBXNativeTarget "Pods-TCUtil_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6DD2F5E0032EAF9CEB9DB710FA7BE5 /* Debug */,
 				7C5D7FD0C8EE555CFA36379286AA2D37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CBFD01E50F66BF5FFC11DB35FEF3FB67 /* Build configuration list for PBXNativeTarget "TCUtil" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				309A0485C8052C05C77AC1B2416D19C6 /* Debug */,
-				62B19891F80391B77449C546D0D003E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,14 +33,20 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   
-  s.frameworks = ["AdSupport", "Foundation", "Security", "SystemConfiguration", "CoreTelephony"]
+  s.frameworks = ["AdSupport", "Foundation", "Security", "SystemConfiguration", "CoreTelephony", "MobileCoreServices"]
   
-  s.vendored_frameworks = "TCUtil/**/*.{framework}"
-  
-  s.source_files = 'TCUtil/Classes/**/*'
+  s.public_header_files = "TCUtil/**/*.h"
+  s.source_files  = "TCUtil", "TCUtil/**/*.{h,m,mm}"
     
   s.vendored_frameworks = "TCUtil/**/*.{framework}"
   
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  
+  s.user_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
   # s.resource_bundles = {
   #   'TCUtil' => ['TCUtil/Assets/*.png']
   # }

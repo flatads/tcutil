@@ -34,9 +34,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.frameworks = ["AdSupport", "Foundation", "Security", "SystemConfiguration", "CoreTelephony", "MobileCoreServices"]
-  
-  s.public_header_files = "TCUtil/**/*.h"
-  s.source_files  = "TCUtil", "TCUtil/**/*.{h,m,mm}"
     
   s.vendored_frameworks = "TCUtil/**/*.{framework}"
   
